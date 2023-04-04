@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+
+    font-family: 'Raleway';
+
+}
+
+#header_input_buscador {
+
+    border: 0.1rem solid #E5E5E5;
+    border-radius: 1.25rem;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    width: 24.5625rem;
+    height: 2.5rem;
+    background: url(./img/lupa.svg);
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position-x: 92%;
+    background-size: 1.25rem;
+    outline: none;
+
+}
+
+#header_boton_login {
+
+    height: 51px;
+    width: 182px;
+
+}
+
+
+
+
