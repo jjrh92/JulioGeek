@@ -1,3 +1,8 @@
+/* En este archivo de css encontraras estilos especificos separados para cada seccion */
+
+
+/* Estilos generales del sitio */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
@@ -6,13 +11,12 @@
 
 }
 
-#header_input_buscador {
+/* Estilos del header */
 
-    border: 0.1rem solid #E5E5E5;
+#header_input_busqueda {
+
     border-radius: 1.25rem;
-    padding: 0.5rem 1rem;
-    gap: 0.5rem;
-    width: 24.5625rem;
+    width: 22rem;
     height: 2.5rem;
     background: url(./img/lupa.svg);
     background-color: #F5F5F5;
@@ -26,11 +30,15 @@
 
 #header_boton_login {
 
-    height: 51px;
-    width: 182px;
+    width: 11rem;
 
 }
 
+/* Estilos del footer */
 
+footer {
 
+    background-color: #EAF2FD;
+
+}
 
