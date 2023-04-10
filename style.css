@@ -55,3 +55,9 @@ footer {
     width: 100%;
 
 }
+
+/* Estilos del login */
+
+#login {
+    background-color: #E5E5E5;
+}

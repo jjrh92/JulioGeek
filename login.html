@@ -24,16 +24,32 @@
                 </form>
               </li>
             </ul>
-            <a id="header_boton_login" href="./login.html" class="btn btn-outline-primary rounded-0 my-1">Login</a>
           </div>
         </div>
       </header>
 
-      <main class="bg-light">
-        <div>
-            <h3>Iniciar Sesión</h3>
+      <main id="login" class="d-flex flex-column align-items-center py-3">
+        <div class="d-flex flex-column px-5 pt-5 pb-3">
+          <h5 style="color: #464646; font-weight: 700; font-size: 18px;">Iniciar Sesión</h5>
         </div>
+        <form autocomplete="off" action="" method="post">
+        <div class="mb-3">
+          <label for="login_email" class="form-label">Escriba su Correo Electronico</label>
+          <input type="email" class="form-control" id="login_email" placeholder="admin@jjrh92.dev">
+        </div>
+        <div class="mb-3">
+          <label for="login_password" class="form-label">Escriba su contraseña</label>
+          <input type="password" class="form-control" id="login_password" placeholder="**********">
+        </div>
+        <div class="pb-3">
+          <button type="submit" value="submit" class="btn btn-primary rounded-0 w-100">Entrar</button>
+        </div>
+
+      </form>
+
+              
       </main>
+
 
       <footer class="d-flex flex-row px-4 py-5 flex-wrap">
 
