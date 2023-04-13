@@ -1,0 +1,123 @@
+{
+    "producto": [
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/01.png",
+            "precio": "9000CLP",
+            "id": "01"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/02.png",
+            "precio": "9000CLP",
+            "id": "02"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/03.png",
+            "precio": "9000CLP",
+            "id": "03"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/04.png",
+            "precio": "9000CLP",
+            "id": "04"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/05.png",
+            "precio": "9000CLP",
+            "id": "05"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/06.png",
+            "precio": "9000CLP",
+            "id": "06"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/07.png",
+            "precio": "9000CLP",
+            "id": "07"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/08.png",
+            "precio": "9000CLP",
+            "id": "08"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/09.png",
+            "precio": "9000CLP",
+            "id": "09"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/10.png",
+            "precio": "9000CLP",
+            "id": "10"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/11.png",
+            "precio": "9000CLP",
+            "id": "11"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/12.png",
+            "precio": "9000CLP",
+            "id": "12"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/13.png",
+            "precio": "9000CLP",
+            "id": "13"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/14.png",
+            "precio": "9000CLP",
+            "id": "14"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/15.png",
+            "precio": "9000CLP",
+            "id": "15"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/16.png",
+            "precio": "9000CLP",
+            "id": "16"
+        },
+
+        {
+            "nombre": "Taza Stormtrooper",
+            "imagen": "./img/productos/17.png",
+            "precio": "9000CLP",
+            "id": "17"
+        }
+
+    ]
+}
