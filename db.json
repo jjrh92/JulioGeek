@@ -2,119 +2,119 @@
     "producto": [
         {
             "nombre": "Taza estilo Stormtrooper",
-            "imagen": "./img/productos/01.png",
+            "imagen": "./assets/productos/01.png",
             "precio": "9000CLP",
             "id": "01"
         },
 
         {
             "nombre": "Figuras de Darth Vader",
-            "imagen": "./img/productos/02.png",
+            "imagen": "./assets/productos/02.png",
             "precio": "9000CLP",
             "id": "02"
         },
 
         {
             "nombre": "Figura de Yoda Anciano",
-            "imagen": "./img/productos/03.png",
+            "imagen": "./assets/productos/03.png",
             "precio": "9000CLP",
             "id": "03"
         },
 
         {
             "nombre": "Figura Stormtrooper",
-            "imagen": "./img/productos/04.png",
+            "imagen": "./assets/productos/04.png",
             "precio": "9000CLP",
             "id": "04"
         },
 
         {
             "nombre": "Figura Baby Yoda",
-            "imagen": "./img/productos/05.png",
+            "imagen": "./assets/productos/05.png",
             "precio": "9000CLP",
             "id": "05"
         },
 
         {
             "nombre": "Figura Mandalorian ",
-            "imagen": "./img/productos/06.png",
+            "imagen": "./assets/productos/06.png",
             "precio": "9000CLP",
             "id": "06"
         },
 
         {
             "nombre": "PlayStation 5",
-            "imagen": "./img/productos/07.png",
+            "imagen": "./assets/productos/07.png",
             "precio": "9000CLP",
             "id": "07"
         },
 
         {
             "nombre": "Nintendo Entertainment System",
-            "imagen": "./img/productos/08.png",
+            "imagen": "./assets/productos/08.png",
             "precio": "9000CLP",
             "id": "08"
         },
 
         {
             "nombre": "Joycons para Nintendo Switch",
-            "imagen": "./img/productos/09.png",
+            "imagen": "./assets/productos/09.png",
             "precio": "9000CLP",
             "id": "09"
         },
 
         {
             "nombre": "Xbox",
-            "imagen": "./img/productos/10.png",
+            "imagen": "./assets/productos/10.png",
             "precio": "9000CLP",
             "id": "10"
         },
 
         {
             "nombre": "Gameboy Color",
-            "imagen": "./img/productos/11.png",
+            "imagen": "./assets/productos/11.png",
             "precio": "9000CLP",
             "id": "11"
         },
 
         {
             "nombre": "Franela Atari",
-            "imagen": "./img/productos/12.png",
+            "imagen": "./assets/productos/12.png",
             "precio": "9000CLP",
             "id": "12"
         },
 
         {
             "nombre": "Gamepad Nintendo Switch",
-            "imagen": "./img/productos/13.png",
+            "imagen": "./assets/productos/13.png",
             "precio": "9000CLP",
             "id": "13"
         },
 
         {
             "nombre": "Figura Sonic",
-            "imagen": "./img/productos/14.png",
+            "imagen": "./assets/productos/14.png",
             "precio": "9000CLP",
             "id": "14"
         },
 
         {
             "nombre": "Radio/Despertador Retro",
-            "imagen": "./img/productos/15.png",
+            "imagen": "./assets/productos/15.png",
             "precio": "9000CLP",
             "id": "15"
         },
 
         {
             "nombre": "Franela Caricaturas",
-            "imagen": "./img/productos/16.png",
+            "imagen": "./assets/productos/16.png",
             "precio": "9000CLP",
             "id": "16"
         },
 
         {
             "nombre": "Peluche Pikachu",
-            "imagen": "./img/productos/17.png",
+            "imagen": "./assets/productos/17.png",
             "precio": "9000CLP",
             "id": "17"
         }
