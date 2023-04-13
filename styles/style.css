@@ -18,7 +18,7 @@
     border-radius: 1.25rem;
     width: 22rem;
     height: 2.5rem;
-    background: url(./img/lupa.svg);
+    background: url(../assets/lupa.svg);
     background-color: #F5F5F5;
     background-repeat: no-repeat;
     background-position: right center;
@@ -46,7 +46,7 @@ footer {
 
 #hero {
 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("/img/hero.jpg");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../assets/hero.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
