@@ -1,6 +1,6 @@
-const crearNuevoProducto = (nombre, imagen, precio, id) => {
+const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
     const contenedorTipoTarjeta = document.createElement ("div");
-    contenedorTipoTarjeta.setAttribute ("class", "d-flex flex-column py-3 gap-1")
+    contenedorTipoTarjeta.setAttribute ("class", "d-flex flex-column py-3 gap-2")
     const contenido =
     `
         <img style="height: 174px; width: 176px;" src="${imagen}">
@@ -15,20 +15,46 @@ const crearNuevoProducto = (nombre, imagen, precio, id) => {
 
 const contenedorProductosHijo = document.querySelector ("[data-producto]");
 
-const http = new XMLHttpRequest ();
+const listaProductos = () => {
 
-http.open ("GET","http://localhost:3000/producto");
-http.send ();
+    const promise = new Promise ((resolve, reject) => {
 
-http.onload = () => {
+        const http = new XMLHttpRequest ();
+        http.open ("GET","http://localhost:3000/producto");
+        http.send ();
 
-    const data = JSON.parse (http.response);
-    data.forEach (producto => {
+        http.onload = () => {
 
-        const nuevoProducto = crearNuevoProducto(producto.nombre, producto.imagen, producto.precio, producto.id);
-        contenedorProductosHijo.appendChild(nuevoProducto);
+            const response = JSON.parse (http.response);
 
-    })
+            if (http.status >= 400) {
+
+                reject (response);
+
+            }
+
+            else {
+
+                resolve (response);
+
+            }
+
+        };
+
+
+    });
+
+    return promise;
 
 };
 
+listaProductos().then((data) =>{
+
+    data.forEach (producto => {
+
+        const productosCargados = cargarProductosEnJSON(producto.nombre, producto.imagen, producto.precio, producto.id);
+        contenedorProductosHijo.appendChild (productosCargados);
+    
+    });
+
+}).catch((error) => alert ("Ha ocurrido un error."));
