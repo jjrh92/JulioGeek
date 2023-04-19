@@ -36,7 +36,7 @@
           <a class="btn btn-primary rounded-0 mx-sm-1 mx-xl-5" id="header_boton_login" href="./productos.html" >Ver Productos</a>
         </section>
 
-        <section id="contenedorProductosPadre" class="bg-white">
+        <section id="contenedorProductosPadre" class="bg-light">
           <div class="d-flex flex-row align-items-center justify-content-between py-3 px-5">
             <h2 style="font-weight: 700; font-size: 32px; color: #464646;">Productos</h2>
             <a style="font-weight: 700;" class="text-decoration-none" href="./productos.html">Ver Todos
@@ -46,7 +46,11 @@
           <section id="contenedorProductosHijo" class="d-flex flex-row justify-content-between gap-2 px-5 py-3 flex-wrap" data-producto>
 
             <!-- <div id="contenedorTipoTarjeta" class="d-flex flex-column gap-1">
-              <img style="height: 174px; width: 176px;" src="../assets/productos/01.png">
+              <div class="d-flex gap-2 position-absolute" id="botonera">
+                  <img id="main_boton_editar" title="Editar producto." style="height: 18px; width: 18px;" src="./assets/editar.svg">
+                  <img id="main_boton_eliminar" title="Eliminar producto." style="height: 18px; width: 18px;" src="./assets/borrar.svg">
+              </div>
+              <img style="height: 174px; width: 176px;" src="./assets/productos/01.png">
               <span style="font-weight: 500; outline-color: #464646; font-size: 14px;">Nombre del producto</span>
               <span style="font-weight: 700; outline-color: #464646; font-size: 16px;">Precio del producto</span>
               <a style="font-weight: 700;" class="text-decoration-none" href="http://">Ver Producto</a>
