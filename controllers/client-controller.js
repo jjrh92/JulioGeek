@@ -7,7 +7,9 @@ const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
     const contenido =
     `
         <div class="d-flex gap-2 position-absolute" id="botonera">
-            <img id="main_boton_editar" title="Editar Producto" style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button">
+        
+            <a href="./editar-producto.html"><img id="main_boton_editar" title="Editar Producto" style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button"></a>
+
             <img id="${id}" class="boton_eliminar" title="Eliminar Producto" style="height: 18px; width: 18px;" src="./assets/borrar.svg" type="button">
         </div>
         <img style="height: 174px; width: 176px;" src="${imagen}">

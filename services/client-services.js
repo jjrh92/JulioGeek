@@ -21,6 +21,7 @@ const crearProducto = (nombre, imagen, precio, id) => {
 const eliminarProducto = (id) => {
 
     alert ("Se ha eliminado el producto id "+id+ ".");
+    
     return fetch (`http://localhost:3000/productos/${id}`,{
 
         method: "DELETE",
