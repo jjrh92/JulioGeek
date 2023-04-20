@@ -7,8 +7,8 @@ const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
     const contenido =
     `
         <div class="d-flex gap-2 position-absolute" id="botonera">
-            <img id="main_boton_editar" title="Editar." style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button">
-            <img id="${id}" class="boton_eliminar" title="Eliminar." style="height: 18px; width: 18px;" src="./assets/borrar.svg" type="button">
+            <img id="main_boton_editar" title="Editar Producto" style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button">
+            <img id="${id}" class="boton_eliminar" title="Eliminar Producto" style="height: 18px; width: 18px;" src="./assets/borrar.svg" type="button">
         </div>
         <img style="height: 174px; width: 176px;" src="${imagen}">
         <span style="font-weight: 500; outline-color: #464646; font-size: 14px;">${nombre}</span>
@@ -17,31 +17,23 @@ const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
     `;
     contenedorTipoTarjeta.innerHTML = contenido;
     
-    const boton_eliminar = document.querySelector ("button");
+    const boton_eliminar= contenedorTipoTarjeta.querySelector (".boton_eliminar");
 
     boton_eliminar.addEventListener ("click", () => {
 
         const id = boton_eliminar.id;
-        alert ("El click ", id);
+
+        clientServices.eliminarProducto(id).then(respuesta => {
+
+            console.log (respuesta);
+
+        }).catch(error => alert ("Ocurrio un error al intentar eliminar el producto"));
 
     });
 
-    // debuggear esta seccion
-
-
-        
-
-
-
-
-    
     return contenedorTipoTarjeta;
 
 };
-
-
-
-
 
 const contenedorProductosHijo = document.querySelector ("[data-producto]");
 
@@ -54,4 +46,5 @@ clientServices.listaProductos().then((data) =>{
     
     });
 
-}).catch((error) => console.log (error));
+}).catch((error) => alert ("Ha ocurrido un error al cargar productos en JSON."));
+

@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "nombre": "Taza estilo Stormtrooper",
+      "nombre": "Taza de Darth Vader",
       "imagen": "./assets/productos/01.png",
       "precio": "$ 9.000 CLP",
       "id": "01"

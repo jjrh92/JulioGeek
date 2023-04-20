@@ -11,7 +11,6 @@ formulario.addEventListener ("submit", (evento) => {
 
     clientServices.crearProducto (nombre, imagen, precio).then (respuesta => {
 
-        console.log (respuesta);
         alert ("Se ha creado un nuevo producto satisfactoriamente.");
 
     }).catch (err => console.log (err));
