@@ -39,3 +39,5 @@ Por fin, en la columna Concluido estarán los elementos ya concluidos.
 El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
 
 Buen proyecto!
+
+![image](https://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png)
