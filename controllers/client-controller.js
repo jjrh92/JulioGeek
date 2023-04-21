@@ -6,11 +6,11 @@ const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
     contenedorTipoTarjeta.setAttribute ("class", "d-flex flex-column py-3 gap-2")
     const contenido =
     `
-        <div class="d-flex gap-2 position-absolute" id="botonera">
+        <div class="d-flex gap-2 position-absolute">
         
-            <a href="./editar-producto.html"><img id="main_boton_editar" title="Editar Producto" style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button"></a>
+            <a href="./editar-producto.html?id=${id}"><img id="main_boton_editar" title="Editar este Producto" style="height: 18px; width: 18px;" src="./assets/editar.svg" type="button"></a>
 
-            <img id="${id}" class="boton_eliminar" title="Eliminar Producto" style="height: 18px; width: 18px;" src="./assets/borrar.svg" type="button">
+            <img id="${id}" class="boton_eliminar" title="Eliminar este Producto" style="height: 18px; width: 18px;" src="./assets/borrar.svg" type="button">
         </div>
         <img style="height: 174px; width: 176px;" src="${imagen}">
         <span style="font-weight: 500; outline-color: #464646; font-size: 14px;">${nombre}</span>
@@ -48,5 +48,5 @@ clientServices.listaProductos().then((data) =>{
     
     });
 
-}).catch((error) => alert ("Ha ocurrido un error al cargar productos en JSON."));
+}).catch((error) => alert ("Ha ocurrido un error al cargar productos desde el archivo JSON. Asegurese que el JSON-SERVER este corriendo ó que la direccion IP y puerto a la que se apunta sea correcta."));
 

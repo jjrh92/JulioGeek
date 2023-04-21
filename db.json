@@ -1,19 +1,19 @@
 {
   "productos": [
     {
-      "nombre": "Taza de Darth Vader",
       "imagen": "./assets/productos/01.png",
+      "nombre": "Taza Stormtrooper",
       "precio": "$ 9.000 CLP",
       "id": "01"
     },
     {
-      "nombre": "Figuras de Darth Vader",
+      "nombre": "Figuras Darth Vader",
       "imagen": "./assets/productos/02.png",
       "precio": "$ 12.000 CLP",
       "id": "02"
     },
     {
-      "nombre": "Figura de Yoda Anciano",
+      "nombre": "Figura Yoda",
       "imagen": "./assets/productos/03.png",
       "precio": "$ 11.000 CLP",
       "id": "03"
@@ -43,19 +43,19 @@
       "id": "07"
     },
     {
-      "nombre": "Nintendo Entertainment System",
+      "nombre": "NES",
       "imagen": "./assets/productos/08.png",
-      "precio": "$75.000 CLP",
+      "precio": "$ 75.000 CLP",
       "id": "08"
     },
     {
-      "nombre": "Joycons para Nintendo Switch",
+      "nombre": "Joycons Nintendo Switch",
       "imagen": "./assets/productos/09.png",
       "precio": "$ 81.000 CLP",
       "id": "09"
     },
     {
-      "nombre": "Xbox Serie X",
+      "nombre": "Xbox Series X",
       "imagen": "./assets/productos/10.png",
       "precio": "$ 520.000 CLP",
       "id": "10"
@@ -67,7 +67,7 @@
       "id": "11"
     },
     {
-      "nombre": "Franela Atari",
+      "nombre": "Tee Atari",
       "imagen": "./assets/productos/12.png",
       "precio": "$ 13.500 CLP",
       "id": "12"
@@ -91,9 +91,9 @@
       "id": "15"
     },
     {
-      "nombre": "Franela Caricaturas",
+      "nombre": "Franela Cartoons",
       "imagen": "./assets/productos/16.png",
-      "precio": "$14.000 CLP",
+      "precio": "$ 14.000 CLP",
       "id": "16"
     },
     {
@@ -105,7 +105,7 @@
     {
       "nombre": "Funko Pickle Rick",
       "imagen": "./assets/productos/18.png",
-      "precio": "$19.000 CLP",
+      "precio": "$ 19.000 CLP",
       "id": "18"
     }
   ]
