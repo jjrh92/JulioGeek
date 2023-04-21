@@ -1,4 +1,4 @@
-import { clientServices } from "../services/client-services.js";
+import { clientServices } from "../services/product-services.js";
 
 const formulario = document.querySelector ("[data-formulario]");
 
