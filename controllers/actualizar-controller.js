@@ -2,7 +2,7 @@ import { clientServices } from "../services/product-services.js";
 
 const formulario = document.querySelector ("[data-formulario]");
 
-const obtenerInformacion = () => {
+const obtenerInformacion = async () => {
 
     const url = new URL (window.location);
     const id = (url.searchParams.get ("id"));
@@ -18,13 +18,33 @@ const obtenerInformacion = () => {
     const nombre = document.querySelector ("[data-nombre]");
     const precio = document.querySelector ("[data-precio]");
 
-    clientServices.detalleProducto(id).then(productos => {
+    try {
 
-        imagen.value = productos.imagen;
-        nombre.value = productos.nombre;
-        precio.value = productos.precio;
+        const productos = await clientServices.detalleProducto (id);
 
-    });
+        if (productos.imagen && productos.nombre && productos.precio) {
+
+            imagen.value = productos.imagen;
+            nombre.value = productos.nombre;
+            precio.value = productos.precio;
+
+        }
+
+        else {
+
+            throw new Error ();
+
+        }
+
+    }
+
+    catch (error) {
+
+        console.log ("Catch - ", error);
+        alert ("Error al obtener datos (id) del producto. Seras redirigido a la pagina principal.");
+        window.location.href ("./index.html")
+
+    }
 
 }
 
