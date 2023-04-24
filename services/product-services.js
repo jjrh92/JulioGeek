@@ -1,8 +1,8 @@
-const listaProductos = () => fetch ("http://localhost:3000/productos").then((respuesta) => respuesta.json());
+const listaProductos = () => fetch ("https://json-crud-i6wz.onrender.com/productos").then((respuesta) => respuesta.json());
 
 const crearProducto = (nombre, imagen, precio, id) => {
 
-    return fetch ("http://localhost:3000/productos", {
+    return fetch ("https://json-crud-i6wz.onrender.com/productos", {
 
         method: "POST",
 
@@ -22,7 +22,7 @@ const eliminarProducto = (id) => {
 
     alert ("Se ha eliminado el producto id "+id+ ".");
     
-    return fetch (`http://localhost:3000/productos/${id}`,{
+    return fetch (`https://json-crud-i6wz.onrender.com/productos/${id}`,{
 
         method: "DELETE",
 
@@ -32,13 +32,13 @@ const eliminarProducto = (id) => {
 
 const detalleProducto = (id) => {
     
-    return fetch (`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
+    return fetch (`https://json-crud-i6wz.onrender.com/productos/${id}`).then((respuesta) => respuesta.json());
 
 };
 
 const actualizarProducto = (imagen, nombre, precio, id) => {
 
-    return fetch (`http://localhost:3000/productos/${id}`, {
+    return fetch (`https://json-crud-i6wz.onrender.com/productos/${id}`, {
 
         method: "PUT",
 

@@ -29,7 +29,7 @@ const cargarProductosEnJSON = (nombre, imagen, precio, id) => {
 
             console.log (respuesta);
 
-        }).catch(error => alert ("Ocurrio un error al intentar eliminar el producto"));
+        }).catch (error => alert ("Ocurrio un error al intentar eliminar el producto"));
 
     });
 
