@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jjrh92/JulioGeek">
-    <img src="hhttps://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png" alt="Logo" width="200" height="200">
+    <img src="https://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Welcome - Bienvenid@</h3>
