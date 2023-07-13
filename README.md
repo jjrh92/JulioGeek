@@ -1,43 +1,95 @@
-# e-commerce
+<br />
 
-Historia
+<div align="center">
 
-La empresa AluraGeek necesita llegar a más clientes y aumentar su nivel de ventas, por lo que quieren implementar un e-commerce, llevar a la empresa al siguiente nivel y volverse más digital.
+![Github Contributors](https://img.shields.io/github/contributors/jjrh92/JulioGeek)
+![Github Stars](https://img.shields.io/github/stars/jjrh92/JulioGeek)
+![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/JulioGeek)
 
-Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe contener los siguientes requisitos:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jjrh92/JulioGeek">
+    <img src="hhttps://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png" alt="Logo" width="200" height="200">
+  </a>
 
-Una página de inicio que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
+<h3 align="center">Welcome - Bienvenid@</h3>
 
-Un banner que contenga descuentos, promociones o informaciónes relevante del momento.
+  <p align=center">
+    JulioFlix - Videoapp.
+    <br />
+    <br />
+    <a href="https://jjrh92.github.io/JulioGeek/">View Demo - Ver Demo</a>
+    ·
+    <a href="https://github.com/jjrh92/JulioGeek/issues">Report Bug - Reportar Bug</a>
+    ·
+    <a href="https://github.com/jjrh92/JulioGeek/issues">Request Feature - Pedir Feature</a>
+  </p>
+</div>
 
-Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
+<!-- ABOUT THE PROJECT -->
 
-Una página de producto que contiene la imagen, el nombre, la descripción y el precio.
+<h1 align="center"> 
+About The Project <img src="https://media2.giphy.com/media/4ZrRpqbSaWoyZYRoCd/giphy.gif" width="30px"> Acerca del Proyecto
+</h1>
 
-Un pie de página con un formulario de contacto y otras informaciónes relevantes.
+Simple E-commerce that supports CRUD Operations . - Aplicación simple de e-commerce que soporta las operaciones CRUD.
 
-Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menu administrador.
+<h1 align="center"> 
+Built With <img src="https://media0.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30px"> Hecho Con
+</h1>
 
-Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
+Vanilla JS.
 
-Es muy importante que el sitio sea adaptable  para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
+<!-- GETTING STARTED -->
+<h1 align="center"> 
+Getting Started <img src="https://media1.giphy.com/media/QvpqIQAAl66EfoTJj8/giphy.gif" width="30px"> Comenzando
+</h1>
 
-Importante:  Todas las imágenes estarán disponibles en Figma para su descarga.
+Install the project locally - Instalar el proyecto localmente. 
+
+Clone the repo
+   ```sh
+   git clone https://github.com/jjrh92/JulioGeek.git
+   ```
+
+<!-- USAGE EXAMPLES -->
+<h1 align="center"> 
+Usage <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2lvcWx2Ynpia3BjYnk3Yzlvdmw1cnBjdHI3cm5uY3QzenM1enNibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/igPDtkfSJZMFwE0LP8/giphy.gif" width="30px"> Uso
+</h1>
+
+CRUD stands for: Create, Read, Update, Delete. - CRUD significa (por sus siglas en ingles): Crear, Leer, Actualizar, Borrar. 
 
 
+<!-- CONTRIBUTING -->
+<h1 align="center"> 
+Contributing <img src="https://media4.giphy.com/media/rkzUVAQe0zC52ActrJ/giphy.gif" width="30px"> Contribuir
+</h1>
 
-Trabajaremos con el sistema de desarrollo ágil, utilizando el Trello de la siguiente manera:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. - Las contribuciones son lo que hace la comunidad open source increible para aprender, inspirar, y crear, todas las contribuciones *son bienvenidas*. 
 
-La columna Listos para iniciar presenta las tarjetas con elementos que aun no fueron desarrollados.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". - Si tienes una sugerencia para mejorar este proyecto, por favor forkea el repositorio y haz una pull request. Puedes tambien abrir un issue con el tag "mejora".
 
-En la columna En Desarrollo estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
+Don't forget to give the project a star! Thanks again! - No olvides darle una estrella al proyecto! Gracias de nuevo!
 
-En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
+<!-- CONTACT -->
+<h1 align="center"> 
+Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" width="30px"> Contacto
+</h1>
 
-Por fin, en la columna Concluido estarán los elementos ya concluidos.
+[Via LinkedIn](https://linkedin.com/jjrh92)
 
-El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
+[Via Github](https://github.com/jjrh92)
 
-Buen proyecto!
+[Via E-Mail](mailto:admin@jjrh92.dev)
 
-![image](https://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png)
+[Via Telegram](https://t.me/jjrh92)
+
+<!-- ACKNOWLEDGMENTS -->
+<h1 align="center"> 
+Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXliemQ4NzVmdXRxc3FyM3RjN2F2NzQ5MmRwZnJxa2VrZDBncjhtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sa5tk2gi3G1MSmy1vY/giphy.gif" width="30px"> Agradecimientos
+</h1>
+
+[Oracle Next Education](https://www.oracle.com/lad/education/oracle-next-education/)
+
+[Alura LATAM](https://www.aluracursos.com/)
