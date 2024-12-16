@@ -16,7 +16,7 @@
 <h3 align="center">Welcome - Bienvenid@</h3>
 
   <p align=center">
-    JulioFlix - Videoapp.
+    JulioGeek - ECommerce
     <br />
     <br />
     <a href="https://jjrh92.github.io/JulioGeek/">View Demo - Ver Demo</a>
