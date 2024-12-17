@@ -2,28 +2,28 @@
 
 <div align="center">
 
-![Github Contributors](https://img.shields.io/github/contributors/jjrh92/JulioGeek)
-![Github Stars](https://img.shields.io/github/stars/jjrh92/JulioGeek)
-![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/JulioGeek)
+![Github Contributors](https://img.shields.io/github/contributors/jjrh92/GeekStore)
+![Github Stars](https://img.shields.io/github/stars/jjrh92/GeekStore)
+![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/GeekStore)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jjrh92/JulioGeek">
+  <a href="https://github.com/jjrh92/GeekStore">
     <img src="https://user-images.githubusercontent.com/48032098/233723395-4b59d658-ef28-4058-94f6-b247fad40e13.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Welcome - Bienvenid@</h3>
 
   <p align=center">
-    JulioGeek - ECommerce
+    GeekStore - ECommerce
     <br />
     <br />
-    <a href="https://jjrh92.github.io/JulioGeek/">View Demo - Ver Demo</a>
+    <a href="https://geekstore.julioreyes.dev/">View Demo - Ver Demo</a>
     ·
-    <a href="https://github.com/jjrh92/JulioGeek/issues">Report Bug - Reportar Bug</a>
+    <a href="https://github.com/jjrh92/GeekStore/issues">Report Bug - Reportar Bug</a>
     ·
-    <a href="https://github.com/jjrh92/JulioGeek/issues">Request Feature - Pedir Feature</a>
+    <a href="https://github.com/jjrh92/GeekStore/issues">Request Feature - Pedir Feature</a>
   </p>
 </div>
 
@@ -50,7 +50,7 @@ Install the project locally - Instalar el proyecto localmente.
 
 Clone the repo
    ```sh
-   git clone https://github.com/jjrh92/JulioGeek.git
+   git clone https://github.com/jjrh92/GeekStore.git
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -81,7 +81,7 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 
 [Via Github](https://github.com/jjrh92)
 
-[Via E-Mail](mailto:admin@jjrh92.dev)
+[Via E-Mail](mailto:contact@julioreyes.dev)
 
 [Via Telegram](https://t.me/jjrh92)
 
